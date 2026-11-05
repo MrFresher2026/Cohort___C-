@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website | Welcome</title>
+    <meta name="description" content="Welcome to our website. Explore our services and learn more about us.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">MyWebsite<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tagline">WELCOME TO OUR WEBSITE</p>
+
+                <h1>Build Something <span>Amazing.</span></h1>
+
+                <p class="hero-description">
+                    Discover new possibilities with our platform.
+                    Explore, learn, and create something meaningful.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn primary-btn">Explore More</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2>About Us</h2>
+            <p class="section-description">
+                We believe in creating simple, useful and accessible
+                digital experiences for everyone.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services">
+            <h2>What We Offer</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">💡</div>
+                    <h3>Innovation</h3>
+                    <p>Explore creative ideas and modern solutions.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Performance</h3>
+                    <p>Enjoy a smooth and user-friendly experience.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Community</h3>
+                    <p>Connect, collaborate and grow together.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <h2>Get In Touch</h2>
+            <p>Have a question or suggestion? We'd love to hear from you.</p>
+
+            <a href="mailto:yourmail@example.com" class="btn primary-btn">
+                Contact Us
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> MyWebsite. All rights reserved.</p>
+        <p>Made with ❤️ by our team.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
